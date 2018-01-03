@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TeamVolei</string>
+    <string name="hint_nome">Nome Jogador</string>
+    <string name="hint_idade">Idade Jogador</string>
+
+    <string name="hint_altura">Altura Jogador</string>
+
+    <string name ="hint_login"> Login </string>
+    <string name="hint_senha"> Senha </string>
+</resources>

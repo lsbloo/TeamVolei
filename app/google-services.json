@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "770553997749",
+    "firebase_url": "https://teamvolei-f8f96.firebaseio.com",
+    "project_id": "teamvolei-f8f96",
+    "storage_bucket": "teamvolei-f8f96.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770553997749:android:be2f45d1c68200a1",
+        "android_client_info": {
+          "package_name": "com.example.osvaldoairon.teamvolei"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "770553997749-s7a1o0jtao0cegkprr2037ghfdoplv7d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.osvaldoairon.teamvolei",
+            "certificate_hash": "facccf4eb0bd922e3aa158367d78fa70c7559b15"
+          }
+        },
+        {
+          "client_id": "770553997749-rkmhl88g8etfjeu5s1pqv6mi3026qkdp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFC-mG-Ot6LaNyK2GAw2R5OiunrednRd4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "770553997749-rkmhl88g8etfjeu5s1pqv6mi3026qkdp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backon"
+    tools:context="com.example.osvaldoairon.teamvolei.ListJogadores">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <ImageView
+            android:id="@+id/imgJogador"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/nomeJogador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="4dp"
+            android:layout_toRightOf="@+id/imgJogador"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold" />
+        android:text="@null" />
+
+        <TextView
+            android:id="@+id/idadeJogador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/nomeJogador"
+            android:layout_below="@+id/nomeJogador"
+            android:layout_marginLeft="4dp"
+            android:text="@null"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/estrelaJogador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="@null"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/funcaoJogador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignRight="@+id/imgJogador"
+            android:layout_below="@+id/estrelaJogador"
+            android:text=""
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/alturaJogador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="@+id/imgJogador"
+            android:layout_alignRight="@+id/imgJogador"
+            android:layout_below="@+id/idadeJogador"
+            android:text=""
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
